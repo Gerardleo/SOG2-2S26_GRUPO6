@@ -1,0 +1,43 @@
+# Parte 1 - Ejecución del proyecto
+
+## 1. Clonar el repositorio
+
+```powershell
+git clone https://github.com/Gerardleo/SOG2-2S26_GRUPO6.git
+cd practica_1
+```
+
+## 2. Crear y activar el entorno virtual
+
+```powershell
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+```
+
+## 3. Instalar dependencias
+
+```powershell
+python -m pip install -r requirements.txt
+```
+
+## 4. Generar los datos limpios
+
+```powershell
+python scripts/limpiar_datos.py
+```
+
+El resultado queda en `salida/`.
+
+## 5. Configurar Supabase
+
+1. Crear el archivo `.env` en la raíz de la practica
+
+```text
+DATABASE_URL=pegar_la_url_compartida
+```
+
+## 6. Subir los datos a Supabase
+
+```powershell
+python scripts/cargar_supabase.py
+```
