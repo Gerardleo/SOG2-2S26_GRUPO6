@@ -1,0 +1,52 @@
+{
+  "filas_originales": 6500,
+  "filas_duplicadas_exactas_eliminadas": 0,
+  "registros_id_cliente_duplicado": 0,
+  "registros_invalidos_descartados": 0,
+  "filas_finales": 6500,
+  "valores_faltantes_finales": 0,
+  "id_cliente_duplicados_finales": 0,
+  "rango_fechas": {
+    "minima": "2021-01-01",
+    "maxima": "2021-12-31"
+  },
+  "estadisticas_basicas": {
+    "edad": {
+      "mean": 36.30523076923077,
+      "median": 36.0,
+      "min": 18.0,
+      "max": 79.0
+    },
+    "venta_total": {
+      "mean": 206.24243076923077,
+      "median": 137.35000000000002,
+      "min": 9.0,
+      "max": 3169.0
+    },
+    "n_compras": {
+      "mean": 5.09,
+      "median": 4.0,
+      "min": 1.0,
+      "max": 25.0
+    },
+    "monto_compra": {
+      "mean": 39.78705553846154,
+      "median": 35.763999999999996,
+      "min": 7.241,
+      "max": 199.349
+    },
+    "tiempo": {
+      "mean": 767.3761538461539,
+      "median": 768.0,
+      "min": 180.0,
+      "max": 1443.0
+    }
+  },
+  "moda": {
+    "edad": 18.0,
+    "venta_total": 98.0,
+    "n_compras": 2.0,
+    "monto_compra": 37.145,
+    "tiempo": 852.0
+  }
+}
