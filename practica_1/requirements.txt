@@ -1,2 +1,6 @@
 pandas
 psycopg[binary]
+numpy
+matplotlib
+seaborn
+scipy
