@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOG2 | Asistente de Ventas Online - Grupo 6</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Marked.js para Markdown -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dompurify/dist/purify.min.js"></script>
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="app-layout">
+        <!-- Barra Lateral (Sidebar) -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo-box">
+                    <i class="fa-solid fa-chart-line logo-icon"></i>
+                    <div>
+                        <h2>SOG2 Analytics</h2>
+                        <span class="badge-subtitle">Grupo 6</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Consultas Rápidas (Puntos 2 al 6) -->
+            <div class="sidebar-section">
+                <h3 class="section-heading"><i class="fa-solid fa-bolt"></i> Consultas Rápidas</h3>
+                <div class="quick-prompts">
+                    <button class="prompt-chip" data-prompt="¿Cuáles fueron los meses con mayores y menores ventas en 2021 y qué canal fue el más popular?">
+                        <i class="fa-solid fa-arrow-trend-up"></i>
+                        <span>Meses extremos y canales</span>
+                    </button>
+                    <button class="prompt-chip" data-prompt="Calcula las estadísticas básicas (media, mediana y moda) para las variables numéricas: edad, venta total, número de compras y tiempo.">
+                        <i class="fa-solid fa-calculator"></i>
+                        <span>Estadísticas descriptivas</span>
+                    </button>
+                    <button class="prompt-chip" data-prompt="Realiza una segmentación de clientes por rango de edad y analiza sus patrones de compra.">
+                        <i class="fa-solid fa-users"></i>
+                        <span>Segmentación por edad</span>
+                    </button>
+                    <button class="prompt-chip" data-prompt="Compara el comportamiento de compra entre géneros y qué métodos de pago prefieren.">
+                        <i class="fa-solid fa-venus-mars"></i>
+                        <span>Comportamiento por género</span>
+                    </button>
+                    <button class="prompt-chip" data-prompt="¿Qué correlación existe entre la edad y la venta total, y entre el uso de boletines y vales?">
+                        <i class="fa-solid fa-project-diagram"></i>
+                        <span>Análisis de correlaciones</span>
+                    </button>
+                    <button class="prompt-chip" data-prompt="¿Cuál es la distribución de ventas según el método de pago utilizado?">
+                        <i class="fa-solid fa-credit-card"></i>
+                        <span>Ventas por método de pago</span>
+                    </button>
+                    <button class="prompt-chip" data-prompt="¿Qué gráficas tenemos disponibles para representar los hallazgos? Muestra el catálogo completo.">
+                        <i class="fa-solid fa-chart-pie"></i>
+                        <span>Catálogo de gráficas</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Galería de Gráficas -->
+            <div class="sidebar-section">
+                <h3 class="section-heading"><i class="fa-solid fa-images"></i> Gráficas del Estudio</h3>
+                <div class="charts-list" id="chartsGallery">
+                    <!-- Dinámico vía JS -->
+                </div>
+            </div>
+
+            <!-- Botón Limpiar Chat -->
+            <div class="sidebar-footer">
+                <button id="clearChatBtn" class="btn-secondary">
+                    <i class="fa-solid fa-trash-can"></i> Limpiar Conversación
+                </button>
+            </div>
+        </aside>
+
+        <!-- Contenedor Principal del Chat -->
+        <main class="chat-container">
+            <!-- Header Superior -->
+            <header class="chat-header">
+                <div class="chat-header-info">
+                    <h1>Asistente de Análisis de Ventas Online</h1>
+                    <p>Interactúa en lenguaje natural para explorar estadísticas, segmentación, tendencias y correlaciones.</p>
+                </div>
+                <div class="header-actions">
+                    <button id="toggleSidebarBtn" class="btn-icon" title="Ocultar/Mostrar Barra Lateral">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
+            </header>
+
+            <!-- Historial de Mensajes -->
+            <div class="chat-messages" id="chatMessages">
+                <!-- Mensaje de Bienvenida Inicial -->
+                <div class="message assistant-message">
+                    <div class="avatar">
+                        <i class="fa-solid fa-robot"></i>
+                    </div>
+                    <div class="message-body">
+                        <div class="message-header">
+                            <span class="sender-name">Analista IA (Google ADK)</span>
+                            <span class="message-time">Ahora</span>
+                        </div>
+                        <div class="message-content">
+                            <p>¡Hola! Soy tu <strong>Analista de Datos Senior</strong> para el proyecto de ventas online 2021.</p>
+                            <p>Estoy conectado en tiempo real a la base de datos de <strong>Supabase</strong> a través de nuestro <strong>Servidor MCP</strong> para responder a todas tus consultas sobre:</p>
+                            <ul>
+                                <li>📊 <strong>Estadísticas descriptivas</strong> (Media, Mediana, Moda de edad, ventas, compras).</li>
+                                <li>📈 <strong>Tendencias y temporalidad</strong> (Meses pico, canales de venta preferidos).</li>
+                                <li>👥 <strong>Segmentación de clientes</strong> (Por edad, género, suscripción a boletines y vales).</li>
+                                <li>🔗 <strong>Correlaciones estadísticas</strong> (Edad vs. Venta, Promociones cruzadas).</li>
+                                <li>🖼️ <strong>Visualización de datos</strong> (Gráficas disponibles <code>g1</code> a <code>g7</code>).</li>
+                            </ul>
+                            <p>Puedes escribir cualquier consulta en el recuadro inferior o seleccionar una de las <em>Consultas Rápidas</em> del panel lateral.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Entrada de Mensaje (Footer) -->
+            <footer class="chat-input-area">
+                <form id="chatForm" class="input-form">
+                    <div class="input-wrapper">
+                        <textarea 
+                            id="userInput" 
+                            placeholder="Escribe tu consulta analítica aquí... (ej. ¿Cuáles fueron los meses con mayores ventas?)" 
+                            rows="1"
+                            autocomplete="off"
+                        ></textarea>
+                        <button type="submit" id="sendBtn" class="btn-send" title="Enviar Mensaje">
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </form>
+            </footer>
+        </main>
+    </div>
+
+    <!-- Modal para Visualización de Gráficas en Grande -->
+    <div id="imageModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" id="modalClose">&times;</span>
+            <h3 id="modalTitle" class="modal-title">Título de la Gráfica</h3>
+            <div class="modal-image-container">
+                <img id="modalImg" src="" alt="Gráfica">
+            </div>
+            <p id="modalDesc" class="modal-desc"></p>
+        </div>
+    </div>
+
+    <script src="/static/js/app.js"></script>
+</body>
+</html>

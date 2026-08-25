@@ -68,7 +68,7 @@ async def main():
 
         # Crear el agente de Google ADK con modelo Gemini Flash
         agent = Agent(
-            model="gemini-3.6-flash",
+            model="gemini-3.5-flash-lite",
             name="AnalistaVentasOnline",
             instruction=SYSTEM_PROMPT,
             tools=[mcp_toolset],
