@@ -1,0 +1,61 @@
+default_code,name,type,categ_id,standard_price,list_price,description
+MAT-001,Bolsas biodegradables medianas 1000u,consu,Materiales / Empaque,45.0,0.0,Bolsas para despacho en caja
+MAT-002,Bolsas biodegradables grandes 1000u,consu,Materiales / Empaque,58.0,0.0,Bolsas grandes reforzadas
+MAT-003,Caja de cartón corrugado estándar 50u,consu,Materiales / Empaque,65.0,0.0,Cajas para pedidos a domicilio y envíos
+MAT-004,Cinta adhesiva transparente de embalaje 48mm,consu,Materiales / Empaque,3.5,0.0,Cinta de empaque para bodega
+MAT-005,Cinta de embalaje con logotipo QuetzalMart,consu,Materiales / Empaque,5.2,0.0,Cinta selladora de seguridad
+MAT-006,Plástico film stretch para paletizado 500m,consu,Materiales / Empaque,28.0,0.0,Rollo de film transparente
+MAT-007,Papel kraft para envoltorio 100m,consu,Materiales / Empaque,19.5,0.0,Envoltorio para frutas y panadería
+MAT-008,Malla plástica para frutas y verduras 500m,consu,Materiales / Empaque,22.0,0.0,Malla tubular transpirable
+MAT-009,Rollos de papel térmico 80x70mm caja 50u,consu,Materiales / POS,35.0,0.0,Papel para impresoras de tickets
+MAT-010,Rollos de papel térmico 57x40mm caja 50u,consu,Materiales / POS,24.0,0.0,Papel para terminales POS POSNET
+MAT-011,Etiquetas adhesivas térmicas 50x30mm 1000u,consu,Materiales / POS,8.5,0.0,Etiquetas para balanzas de peso
+MAT-012,Etiquetas adhesivas de código de barras 30x20mm,consu,Materiales / POS,6.0,0.0,Etiquetas para marcación de góndola
+MAT-013,Resma de papel bond carta 500 hojas,consu,Materiales / Oficina,4.2,0.0,Papel para impresión administrativa
+MAT-014,Tóner para impresora láser administrativa,consu,Materiales / Oficina,68.0,0.0,Cartucho de tóner de alta duración
+MAT-015,Grapadora metálica de uso pesado,consu,Materiales / Oficina,12.0,0.0,Grapadora de caja y recepción
+MAT-016,Grapas estándar 26/6 caja 5000u,consu,Materiales / Oficina,2.1,0.0,Insumo de oficina
+MAT-017,Marcadores permanentes punta gruesa caja 12u,consu,Materiales / Oficina,9.8,0.0,Rotulación de cajas de almacén
+MAT-018,Cutter retráctil metálico para almacén,consu,Materiales / Oficina,3.0,0.0,Navaja de seguridad para apertura
+MAT-019,Cuchillas de repuesto para cutter caja 10u,consu,Materiales / Oficina,2.5,0.0,Repuestos cortantes
+MAT-020,Tableros acrílicos para inventario con clip,consu,Materiales / Oficina,4.5,0.0,Portapapeles para auditores
+MAT-021,Desinfectante multiusos galón 3.78L,consu,Materiales / Limpieza,11.5,0.0,Químico de limpieza de pisos
+MAT-022,Cloro blanqueador industrial galón 3.78L,consu,Materiales / Limpieza,8.0,0.0,Sanitizante de áreas comunes
+MAT-023,Jabón líquido antibacterial para manos galón,consu,Materiales / Limpieza,14.0,0.0,Repuesto para baños públicos
+MAT-024,Gel antibacterial hidroalcohólico al 70% galón,consu,Materiales / Limpieza,16.5,0.0,Dispensadores de entrada de tienda
+MAT-025,Papel toalla interdoblada caja 20 paquetes,consu,Materiales / Limpieza,32.0,0.0,Papel toalla para baños
+MAT-026,Papel higiénico institucional jumbo rollo 12u,consu,Materiales / Limpieza,26.0,0.0,Papel higiénico de alto tráfico
+MAT-027,Bolsas plásticas negras para basura jumbo 100u,consu,Materiales / Limpieza,22.0,0.0,Bolsas de 55 galones
+MAT-028,Trapeador industrial de algodón hilado,consu,Materiales / Limpieza,7.5,0.0,Repuesto de trapeador de góndolas
+MAT-029,Mango de aluminio para trapeador 1.5m,consu,Materiales / Limpieza,6.0,0.0,Estructura para limpieza
+MAT-030,Escobillón industrial con cerdas de nylon,consu,Materiales / Limpieza,8.5,0.0,Escoba para exteriores y pasillos
+MAT-031,Recogedor de basura basculante con mango,consu,Materiales / Limpieza,13.0,0.0,Recogedor móvil para piso de venta
+MAT-032,Limpiador desengrasante para carnicería y deli 5L,consu,Materiales / Limpieza,24.0,0.0,Desengrasante apto contacto alimentario
+MAT-033,Paños de microfibra multiusos paquete 12u,consu,Materiales / Limpieza,10.5,0.0,Paños para limpieza de vitrinas
+MAT-034,Chaleco reflectivo con logo QuetzalMart,consu,Materiales / Uniformes,8.9,0.0,Chaleco para personal de bodega
+MAT-035,Guantes de nitrilo desechables caja 100u,consu,Materiales / Sanidad,9.2,0.0,Guantes para manipulación de alimentos
+MAT-036,Guantes de carnaza reforzados para carga,consu,Materiales / Uniformes,6.8,0.0,Guantes de trabajo pesado
+MAT-037,Cofias desechables para manipulación caja 100u,consu,Materiales / Sanidad,4.5,0.0,Cubre cabellos para panadería
+MAT-038,Delantales plásticos impermeables,consu,Materiales / Uniformes,5.2,0.0,Protección en carnicería y pescadería
+MAT-039,Fajas lumbares de protección para estibadores,consu,Materiales / Uniformes,18.0,0.0,Protección ergonómica almacén
+MAT-040,Botas de hule antideslizantes,consu,Materiales / Uniformes,21.0,0.0,Calzado para área de lavado
+MAT-041,Mascarillas quirúrgicas tricapa caja 50u,consu,Materiales / Sanidad,3.8,0.0,Insumo de bioseguridad
+MAT-042,Cestas plásticas rojas para clientes 28L,consu,Materiales / Equipamiento,6.5,0.0,Canastas manuales de compras
+MAT-043,Carretilla de mano para transporte de cajas,consu,Materiales / Equipamiento,75.0,0.0,Diablo de carga para descarga de camión
+MAT-044,Portaprecios plástico transparente para góndola 1m,consu,Materiales / Exhibición,2.2,0.0,Riel porta etiquetas
+MAT-045,Separadores acrílicos para estantes,consu,Materiales / Exhibición,3.1,0.0,Divisores de productos en anaqueles
+MAT-046,Candados de seguridad de combinación para lockers,consu,Materiales / Seguridad,7.0,0.0,Lockers de empleados
+MAT-047,Cono de seguridad color naranja 'Piso Mojado',consu,Materiales / Seguridad,14.0,0.0,Señalización de prevención
+MAT-048,Pilas alcalinas AA para escáneres paquete 24u,consu,Materiales / POS,18.0,0.0,Baterías para lectores inalámbricos
+MAT-049,Pilas alcalinas AAA para básculas paquete 24u,consu,Materiales / POS,17.5,0.0,Baterías para periféricos
+MAT-050,Cable de red ethernet RJ45 Cat6 15m,consu,Materiales / TI,12.0,0.0,Conexión cajas POS
+MAT-051,Bombillas LED de alto brillo 18W para techo,consu,Materiales / Mantenimiento,4.8,0.0,Iluminación de pasillos
+MAT-052,Tubo fluorescente LED 36W para góndolas,consu,Materiales / Mantenimiento,7.2,0.0,Iluminación vitrinas
+MAT-053,Gas refrigerante R404A para cámaras frías cilindro,consu,Materiales / Mantenimiento,135.0,0.0,Recarga de sistemas de frío
+MAT-054,Aceite lubricante multiusos WD-40 400ml,consu,Materiales / Mantenimiento,6.5,0.0,Mantenimiento carretillas y bisagras
+MAT-055,Termómetros digitales para congeladores,consu,Materiales / Mantenimiento,15.0,0.0,Control de cadena de frío
+MAT-056,Extintor de incendios PQS 10lbs recargado,consu,Materiales / Seguridad,38.0,0.0,Seguridad contra incendios
+MAT-057,Botiquín de primeros auxilios industrial para pared,consu,Materiales / Seguridad,45.0,0.0,Atención médica básica sucursal
+MAT-058,Precintos plásticos de seguridad numerados 100u,consu,Materiales / Seguridad,16.0,0.0,Sellado de camiones y contenedores
+MAT-059,Bandejas plásticas para área de carnes y pan,consu,Materiales / Exhibición,5.5,0.0,Bandejas expositoras
+MAT-060,Tarjetas PVC blancas para credenciales de acceso 100u,consu,Materiales / TI,20.0,0.0,Identificación de empleados

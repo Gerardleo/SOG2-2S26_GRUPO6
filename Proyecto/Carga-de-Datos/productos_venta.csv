@@ -1,0 +1,41 @@
+Internal Reference,Name,Product Type,Category,Barcode,Cost,Sales Price,Weight,Sales Description
+PROD-001,Arroz Blanco Grano Entero 1 lb,consu,Alimentos / Abarrotes,740100100001,0.55,0.75,0.45,Arroz blanco de primera calidad 1 lb
+PROD-002,Frijol Negro Volcán 1 lb,consu,Alimentos / Abarrotes,740100100002,0.8,1.15,0.45,Frijol negro seleccionado de cosecha reciente
+PROD-003,Azúcar Blanca Estándar 1 kg,consu,Alimentos / Abarrotes,740100100003,0.7,0.95,1.0,Azúcar pura de caña refinada
+PROD-004,Aceite Vegetal Ideal 800 ml,consu,Alimentos / Abarrotes,740100100004,1.9,2.5,0.8,Aceite vegetal comestible puro
+PROD-005,Harina de Trigo Selecta 1 kg,consu,Alimentos / Abarrotes,740100100005,0.9,1.25,1.0,Harina de trigo enriquecida
+PROD-006,Pasta Spaghetti Roma 200 g,consu,Alimentos / Abarrotes,740100100006,0.4,0.6,0.2,Spaghetti clásico de trigo durum
+PROD-007,Salsa de Tomate Naturas 106 g,consu,Alimentos / Abarrotes,740100100007,0.35,0.5,0.11,Salsa de tomate lista con especias
+PROD-008,Avena en Hojuelas Quaker 360 g,consu,Alimentos / Abarrotes,740100100008,1.2,1.65,0.36,Avena 100% integral en bolsa
+PROD-009,Sal Yodada de Mesa 500 g,consu,Alimentos / Abarrotes,740100100009,0.25,0.4,0.5,Sal fina yodada y fluorada
+PROD-010,Café Molido Quetzal Gourmet 400 g,consu,Alimentos / Café,740100100010,3.2,4.5,0.4,Café de altura tostado y molido
+PROD-011,Leche Entera Trebolac 1 Litro,consu,Lácteos / Leches,740100100011,1.1,1.5,1.0,Leche de vaca pasteurizada entera
+PROD-012,Leche Deslactosada 1 Litro,consu,Lácteos / Leches,740100100012,1.25,1.7,1.0,Leche semidescremada libre de lactosa
+PROD-013,Queso Fresco Tipo Capas 400 g,consu,Lácteos / Quesos,740100100013,2.2,3.1,0.4,Queso artesanal fresco empacado
+PROD-014,Crema Pura Pasteurizada 250 ml,consu,Lácteos / Cremas,740100100014,1.0,1.45,0.25,Crema fresca para cocina
+PROD-015,Mantequilla con Sal 200 g,consu,Lácteos / Mantequillas,740100100015,1.3,1.85,0.2,Mantequilla de leche de vaca
+PROD-016,Yogurt Fresa Familiar 1 Litro,consu,Lácteos / Yogurts,740100100016,1.8,2.6,1.0,Yogurt con trozos de fruta
+PROD-017,Agua Pura Salvavidas 1.5 Litros,consu,Bebidas / Aguas,740100100017,0.6,0.9,1.5,Agua purificada sin gas
+PROD-018,Gaseosa Cola Quetzal 2 Litros,consu,Bebidas / Gaseosas,740100100018,1.2,1.75,2.0,Bebida carbonatada sabor cola
+PROD-019,Jugo de Naranja del Frutal 1 Litro,consu,Bebidas / Jugos,740100100019,1.3,1.9,1.0,Jugo 100% néctar enriquecido con vitamina C
+PROD-020,Té Frío Limón Botella 500 ml,consu,Bebidas / Té,740100100020,0.7,1.0,0.5,Bebida refrescante sabor a té de limón
+PROD-021,Pechuga de Pollo Fresca 1 lb,consu,Carnes / Aves,740100100021,2.1,2.9,0.45,Pechuga de pollo sin hueso
+PROD-022,Carne Molida Especial de Res 1 lb,consu,Carnes / Res,740100100022,2.6,3.6,0.45,Carne magra molida 90/10
+PROD-023,Salchicha Viena Paquete 10u,consu,Carnes / Embutidos,740100100023,1.4,2.0,0.35,Salchicha tipo viena de pavo
+PROD-024,Jamón Cocido de Pavo 250 g,consu,Carnes / Embutidos,740100100024,1.75,2.5,0.25,Jamón rebanado empacado al vacío
+PROD-025,Pan de Rodaja Blanco Familiar 550 g,consu,Panadería / Pan,740100100025,1.5,2.15,0.55,Pan blanco de molde clásico
+PROD-026,Galletas Dulces Vainilla Tubo,consu,Snacks / Galletas,740100100026,0.45,0.7,0.15,Galletas dulces crujientes
+PROD-027,Tortrix Barbacoa Bolsa Familiar 180 g,consu,Snacks / Frituras,740100100027,1.0,1.5,0.18,Frituras de maíz sabor barbacoa
+PROD-028,Cereal Copos de Maíz Tostados 400 g,consu,Alimentos / Cereales,740100100028,1.9,2.75,0.4,Cereal para desayuno fortificado
+PROD-029,Jabón de Tocador Protex 110 g,consu,Cuidado Personal / Jabones,740100100029,0.7,1.0,0.11,Jabón en barra antibacterial
+PROD-030,Shampoo Capilar Anticaspa 400 ml,consu,Cuidado Personal / Cabello,740100100030,2.8,3.95,0.4,Shampoo con aloe vera y piritionato
+PROD-031,Crema Dental Protección Total 100 ml,consu,Cuidado Personal / Dental,740100100031,1.2,1.75,0.1,Pasta de dientes anticaries con flúor
+PROD-032,Desodorante Antitranspirante Roll-On 50 ml,consu,Cuidado Personal / Desodorantes,740100100032,1.6,2.3,0.05,Protección 48 horas sin alcohol
+PROD-033,Detergente en Polvo Blanca Nieves 1 kg,consu,Limpieza / Lavandería,740100100033,1.4,2.05,1.0,Detergente biodegradable con oxígeno activo
+PROD-034,Suavizante de Telas Suavitel 850 ml,consu,Limpieza / Lavandería,740100100034,1.5,2.2,0.85,Aroma primaveral para ropa
+PROD-035,Lavaplatos Líquido Axion 750 ml,consu,Limpieza / Cocina,740100100035,1.6,2.35,0.75,Jabón lavatrastes arranca grasa
+PROD-036,Desinfectante para Pisos Lavanda 1 Litro,consu,Limpieza / Pisos,740100100036,1.1,1.65,1.0,Limpiador aromático antibacterial
+PROD-037,Cloro Blanqueador Hogar 1 Litro,consu,Limpieza / Hogar,740100100037,0.75,1.1,1.0,Solución desinfectante de hipoclorito
+PROD-038,Esponja Abrasiva Verde Doble Uso 3u,consu,Limpieza / Cocina,740100100038,0.8,1.25,0.08,Fibra verde con esponja amarilla
+PROD-039,Papel Higiénico Suave 4 Rollos,consu,Hogar / Papelería,740100100039,1.3,1.95,0.4,Papel higiénico doble hoja acolchado
+PROD-040,Fósforos de Seguridad Paquete 10 cajitas,consu,Hogar / Cocina,740100100040,0.4,0.65,0.1,Cerillos clásicos de madera

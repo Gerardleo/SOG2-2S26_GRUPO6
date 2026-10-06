@@ -1,0 +1,21 @@
+Reference,Name,Email,Phone,Street,City,State,Zip,Country,Tax ID,Notes
+PRV-001,Distribuidora de Alimentos La Campiña S.A.,proveedor.campina@gmail.com,+502 2333-1000,Calzada Roosevelt 10-00 Zona 7,Ciudad de Guatemala,Guatemala,01007,Guatemala,4567890-1,"Alimentos, Granos, Abarrotes"
+PRV-002,Lácteos y Derivados San Antonio,ventas@lacteosanantonio.gt,+502 7832-1122,Km 45 Carretera Interamericana,Sumpango,Sacatepéquez,03004,Guatemala,7890123-4,"Lácteos, Quesos, Leche"
+PRV-003,Bebidas Gaseosas y Jugos del Valle S.A.,pedidos@bebidasdelvalle.gt,+502 2470-8800,Avenida Petapa 45-20 Zona 12,Ciudad de Guatemala,Guatemala,01012,Guatemala,1230984-5,"Refrescos, Aguas, Jugos"
+PRV-004,Avícola y Embutidos Santa Lucía,contacto@avicolasantalucia.gt,+502 2444-5566,Calzada San Juan 30-10 Zona 7,Ciudad de Guatemala,Guatemala,01007,Guatemala,9081726-3,"Carnes, Pollo, Embutidos"
+PRV-005,Molinos y Harinas Centroamericanas,ventas@molinosca.com,+502 2230-4000,Calle Martí 12-40 Zona 2,Ciudad de Guatemala,Guatemala,01002,Guatemala,5432167-8,"Harinas, Panificación, Pastas"
+PRV-006,Suministros de Empaque y Cartón Maya,empaquesmaya@gmail.com,+502 2490-3322,Calzada Atanasio Tzul 35-50 Zona 12,Ciudad de Guatemala,Guatemala,01012,Guatemala,3456789-0,"Cajas, Bolsas, Film"
+PRV-007,Química e Higiene Industrial S.A.,ventas@quimicahigiene.gt,+502 2380-7700,Avenida Las Américas 12-30 Zona 13,Ciudad de Guatemala,Guatemala,01013,Guatemala,6789012-3,"Desinfectantes, Cloro, Jabones"
+PRV-008,Papelera y Rollos Térmicos del Istmo,pedidos@rollostermicos.gt,+502 2420-9911,12 Avenida 10-33 Zona 1,Ciudad de Guatemala,Guatemala,01001,Guatemala,8901234-5,"Papel térmico, Resmas, Etiquetas"
+PRV-009,Seguridad Ocupacional y Uniformes Pro,uniformespro@gmail.com,+502 2360-1144,Boulevard Los Próceres 20-50 Zona 10,Ciudad de Guatemala,Guatemala,01010,Guatemala,2345678-9,"Chalecos, Botas, Guantes, Fajas"
+PRV-010,Tecnología POS y Redes de Guatemala,soporte@tecnologiapos.gt,+502 2415-3000,Diagonal 6 15-20 Zona 10,Ciudad de Guatemala,Guatemala,01010,Guatemala,4561237-8,"Cables, Escáneres, Baterías, POS"
+PRV-011,Distribuidora Internacional México S.A. de C.V.,ventas@distmexico.com.mx,+52 55 5200-1100,Av. Industrial 400,Ciudad de México,CDMX,02300,Mexico,DIM020415XYZ,Surtido General Sucursal México
+PRV-012,Comercial de Insumos y Empaques CDMX,empaquescdmx@gmail.com,+52 55 5340-2211,Calzada Vallejo 850,Ciudad de México,CDMX,07700,Mexico,CIE050912ABC,Insumos y Cajas México
+PRV-013,Alimentos Cuscatlán S.A. de C.V.,contacto@alimentosalvador.sv,+503 2210-4400,Carretera al Puerto de La Libertad Km 10,Santa Tecla,La Libertad,1501,El Salvador,0614-150280-101-1,Alimentos Sucursal El Salvador
+PRV-014,Suministros Industriales San Salvador,ventas@suministrossv.com,+503 2270-3322,Zona Industrial Merliot,Antiguo Cuscatlán,La Libertad,1502,El Salvador,0614-220895-102-4,Materiales e Insumos El Salvador
+PRV-015,Agrícola y Verduras Frescas El Paraíso,frescosparaiso@gmail.com,+502 7744-2299,Valle de Almolonga,Quetzaltenango,Quetzaltenango,09001,Guatemala,1357924-6,"Verduras, Hortalizas"
+PRV-016,Frutas y Cítricos de la Costa S.A.,frutascosta@gmail.com,+502 7880-4411,Autopista a Puerto San José Km 70,Escuintla,Escuintla,05001,Guatemala,2468013-5,Frutas frescas
+PRV-017,Snacks y Frituras La Tradición,pedidos@snacksguate.gt,+502 2440-7766,Calzada Aguilar Batres 24-10 Zona 11,Ciudad de Guatemala,Guatemala,01011,Guatemala,9876543-2,"Snacks, Papas fritas, Golosinas"
+PRV-018,Café y Tostaduría Los Volcanes,ventas@cafelosvolcanes.gt,+502 7831-5500,Calle Ancha de Los Herreros #22,Antigua Guatemala,Sacatepéquez,03001,Guatemala,8765432-1,Café gourmet en grano y molido
+PRV-019,Cuidado del Hogar y Plásticos del Sur,contacto@plasticosdelsur.gt,+502 2477-9922,Villa Hermosa 1 Sector 2,San Miguel Petapa,Guatemala,01066,Guatemala,7654321-0,"Cestas, Baldes, Contenedores"
+PRV-020,Equipos Frigoríficos y Clima S.A.,mantenimiento@climafrigo.gt,+502 2385-4433,Calzada Roosevelt 22-50 Zona 11,Ciudad de Guatemala,Guatemala,01011,Guatemala,6543210-9,"Refrigerantes, Mantenimiento"
