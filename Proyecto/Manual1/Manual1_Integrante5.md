@@ -1,6 +1,5 @@
 Manual 1 — Recursos humanos y gestor documental
-Proyecto: QuetzalMart
-Plataforma: Odoo Community 17
+
 Alcance: configuración de recursos humanos, carga de empleados y organización de documentos.
 Esta sección describe el trabajo realizado desde el navegador sobre la instalación de Odoo del proyecto. Comprende la carga de 35 empleados, su distribución en cinco departamentos y seis cargos, y la organización de 15 documentos: cinco facturas de proveedores, cinco contratos de outsourcing y cinco contratos de empleados.
 Los registros de empleados y los contratos preparados para esta práctica contienen datos ficticios con fines académicos.
