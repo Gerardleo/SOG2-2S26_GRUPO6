@@ -1,0 +1,10 @@
+ODOO_URL=http://3.140.234.169:8069
+ODOO_DB=quetzalmart
+ODOO_USER=admin@quetzalmart.gt
+ODOO_PASSWORD=Admin123*
+
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USER=henryquel011@gmail.com
+SMTP_PASSWORD=snec xqwz ymja fzri
+SMTP_FROM=henryquel011@gmail.com
