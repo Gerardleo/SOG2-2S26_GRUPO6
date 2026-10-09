@@ -27,6 +27,11 @@ if tmpl and record.partner_id.email:
 """ % NOMBRE_PLANTILLA
 
 
+# Parametros UTM para que Google Analytics 4 atribuya las visitas al canal email.
+# (&amp; porque va dentro de HTML)
+UTM = "utm_source=quetzalmart&amp;utm_medium=email&amp;utm_campaign=gracias_por_tu_compra"
+
+
 def cuerpo_html(base_url, productos):
     # Sin fotos remotas: clientes como temp-mail bloquean imagenes http. Tarjetas con emoji + color se ven siempre.
     tarjetas = ""
@@ -37,7 +42,7 @@ def cuerpo_html(base_url, productos):
     ]:
         tarjetas += f"""
         <td style="width:33%;padding:6px;text-align:center;vertical-align:top;">
-          <a href="{base_url}/shop" style="text-decoration:none;display:block;background:{color};border-radius:14px;padding:18px 6px;color:#ffffff;">
+          <a href="{base_url}/shop?{UTM}&amp;utm_content={titulo.lower()}" style="text-decoration:none;display:block;background:{color};border-radius:14px;padding:18px 6px;color:#ffffff;">
             <div style="font-size:42px;line-height:48px;">{emoji}</div>
             <div style="font-weight:bold;font-size:16px;margin-top:6px;">{titulo}</div>
             <div style="font-size:12px;margin-top:4px;opacity:.9;">{texto}</div>
@@ -56,7 +61,7 @@ def cuerpo_html(base_url, productos):
       <div style="margin:16px auto;display:inline-block;border:2px dashed #e67e22;border-radius:10px;padding:10px 26px;font-size:24px;font-weight:bold;color:#e67e22;">QUETZAL10</div>
       <p style="color:#555;font-size:15px;line-height:1.5;">Alimentos, bebidas y todo lo que necesitas para tu hogar, con sucursales en
         Guatemala, Mexico y El Salvador y envio gratis en compras mayores a 25.</p>
-      <a href="{base_url}/shop" style="display:inline-block;background:#e67e22;color:#ffffff;text-decoration:none;padding:14px 34px;border-radius:30px;font-weight:bold;font-size:16px;">Ir a la tienda</a>
+      <a href="{base_url}/shop?{UTM}&amp;utm_content=boton_tienda" style="display:inline-block;background:#e67e22;color:#ffffff;text-decoration:none;padding:14px 34px;border-radius:30px;font-weight:bold;font-size:16px;">Ir a la tienda</a>
     </td></tr>
     <tr><td style="padding:0 16px 24px;">
       <div style="font-size:18px;font-weight:bold;color:#2c3e50;text-align:center;margin-bottom:8px;">Lo que encuentras en nuestra tienda</div>
