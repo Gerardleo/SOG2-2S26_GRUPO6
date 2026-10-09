@@ -1,0 +1,62 @@
+{
+  "name": "QuetzalMart_RPA",
+  "projectId": "87ab8b3f-0b97-4cfd-8f8a-f8908c5fa38c",
+  "description": "Proceso en blanco",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Database.Activities": "[2.1.1]",
+    "UiPath.Excel.Activities": "[3.6.1]",
+    "UiPath.MicrosoftOffice365.Activities": "[3.12.10]",
+    "UiPath.System.Activities": "[26.8.2]",
+    "UiPath.UIAutomation.Activities": "[26.10.5]",
+    "UiPath.WebAPI.Activities": "[2.5.2]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.1",
+  "studioVersion": "26.0.203.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "NewtonsoftJson",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "f96c8c96-2bd4-4c3e-bdfc-8fc910f6b029",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

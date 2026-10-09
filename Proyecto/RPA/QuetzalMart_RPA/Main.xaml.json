@@ -1,0 +1,81 @@
+{
+  "DisplayName": "Main",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_ruta_log",
+      "DisplayName": "in_ruta_log",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "C:\\RPA_QuetzalMart\\Logs",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_ruta_entrada",
+      "DisplayName": "in_ruta_entrada",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "C:\\RPA_QuetzalMart\\Entrada",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_password",
+      "DisplayName": "in_password",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "Admin123*",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_db",
+      "DisplayName": "in_db",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "quetzalmart",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_url",
+      "DisplayName": "in_url",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "http://3.140.234.169:8069",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_usuario",
+      "DisplayName": "in_usuario",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "admin@quetzalmart.gt",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

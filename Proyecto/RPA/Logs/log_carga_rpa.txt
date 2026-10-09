@@ -1,0 +1,28 @@
+﻿timestamp | archivo | hoja | fila | registro | accion | resultado
+timestamp | archivo | hoja | fila | registro | accion | resultado
+2026-10-08 19:34:24 | clientes-archivo de ejemplo_59feb59b62fbbebba6c9238d5c823d3f.xlsx | clientes | fila 2 | Supermercados Los Pinos SA | SKIP | DUPLICADO
+2026-10-08 19:34:24 | clientes-archivo de ejemplo_59feb59b62fbbebba6c9238d5c823d3f.xlsx | clientes | fila 3 | Roberto Aguilar Paz | SKIP | DUPLICADO
+2026-10-08 19:34:24 | clientes-archivo de ejemplo_59feb59b62fbbebba6c9238d5c823d3f.xlsx | clientes | fila 4 | Panadería La Espiga &amp; Hijos | SKIP | DUPLICADO
+2026-10-08 19:34:25 | clientes-archivo de ejemplo_59feb59b62fbbebba6c9238d5c823d3f.xlsx | clientes | fila 5 | Tienda "El Buen Precio" | SKIP | DUPLICADO
+2026-10-08 19:34:25 | clientes-archivo de ejemplo_59feb59b62fbbebba6c9238d5c823d3f.xlsx | clientes | fila 6 | Lucía Fernanda Barrios | SKIP | DUPLICADO
+2026-10-08 19:34:25 | clientes-archivo de ejemplo_59feb59b62fbbebba6c9238d5c823d3f.xlsx | clientes | fila 7 | Distribuidora Cuscatlán SA de CV | SKIP | DUPLICADO
+2026-10-08 19:34:25 | clientes-archivo de ejemplo_59feb59b62fbbebba6c9238d5c823d3f.xlsx | clientes | fila 8 | Importadora Maya del Norte SA | SKIP | DUPLICADO
+2026-10-08 19:34:26 | clientes-archivo de ejemplo_59feb59b62fbbebba6c9238d5c823d3f.xlsx | clientes | fila 9 | Diego Armando Solís | SKIP | DUPLICADO
+2026-10-08 19:34:26 | clientes-archivo de ejemplo_59feb59b62fbbebba6c9238d5c823d3f.xlsx | clientes | fila 10 | Cliente Prueba Dos | SKIP | DUPLICADO
+2026-10-08 19:34:26 | clientes-archivo de ejemplo_59feb59b62fbbebba6c9238d5c823d3f.xlsx | clientes | fila 11 | Cliente Prueba Dos | SKIP | DUPLICADO
+2026-10-08 19:34:26 | clientes-archivo de ejemplo_59feb59b62fbbebba6c9238d5c823d3f.xlsx | clientes | fila 12 | (sin nombre) | CREATE | ERROR: fila sin Name
+2026-10-08 19:34:26 | clientes-archivo de ejemplo_59feb59b62fbbebba6c9238d5c823d3f.xlsx | clientes | fila 13 | Cliente Sin Estado ni País | SKIP | DUPLICADO
+2026-10-08 19:34:42 | productos-prueba.xlsx | productos | fila 2 | Azúcar Blanca 5 lb | SKIP | DUPLICADO
+2026-10-08 19:34:42 | productos-prueba.xlsx | productos | fila 3 | Sal &amp; Pimienta Molida 100g | SKIP | DUPLICADO
+2026-10-08 19:34:42 | productos-prueba.xlsx | productos | fila 4 | Harina de Trigo 2 lb | SKIP | DUPLICADO
+2026-10-08 19:34:42 | productos-prueba.xlsx | productos | fila 5 | Pasta Espagueti 400g | SKIP | DUPLICADO
+2026-10-08 19:34:43 | productos-prueba.xlsx | productos | fila 6 | Jugo de Naranja 1L | SKIP | DUPLICADO
+2026-10-08 19:34:43 | productos-prueba.xlsx | productos | fila 7 | Atún en Agua 140g | SKIP | DUPLICADO
+2026-10-08 19:34:43 | productos-prueba.xlsx | productos | fila 8 | Champú Familiar 400ml | SKIP | DUPLICADO
+2026-10-08 19:34:43 | productos-prueba.xlsx | productos | fila 9 | Servicio de Armado de Canastas | SKIP | DUPLICADO
+2026-10-08 19:34:44 | productos-prueba.xlsx | productos | fila 10 | Galletas "Marinela Dorada" | SKIP | DUPLICADO
+2026-10-08 19:34:44 | productos-prueba.xlsx | productos | fila 11 | Suavizante de Telas 1.5L | SKIP | DUPLICADO
+2026-10-08 19:34:44 | productos-prueba.xlsx | productos | fila 12 | Azúcar Blanca 5 lb | SKIP | DUPLICADO
+2026-10-08 19:34:44 | productos-prueba.xlsx | productos | fila 13 | (sin nombre) | CREATE | ERROR: fila sin Name
+2026-10-08 19:34:45 | productos-prueba.xlsx | productos | fila 14 | Producto Precio Inválido | SKIP | DATO INVALIDO: El campo 'Sales Price' tiene un valor numérico inválido: 'abc'
+2026-10-08 19:34:45 | productos-prueba.xlsx | productos | fila 15 | Producto Peso Inválido | SKIP | DATO INVALIDO: El campo 'Weight' tiene un valor numérico inválido: '1 kg'

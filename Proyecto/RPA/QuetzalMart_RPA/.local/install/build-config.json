@@ -1,0 +1,12 @@
+{
+  "Version": "1.0",
+  "IncludeWorkflows": [
+    "Main.xaml",
+    "OdooLogin.xaml",
+    "ProcesarClientes.xaml",
+    "ProcesarProductos.xaml",
+    "POST_Xml.xaml",
+    "OdooSearch.xaml",
+    "OdooExec.xaml"
+  ]
+}

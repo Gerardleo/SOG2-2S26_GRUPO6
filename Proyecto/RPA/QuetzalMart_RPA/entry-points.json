@@ -1,0 +1,44 @@
+{
+  "$schema": "https://cloud.uipath.com/draft/2024-12/entry-point",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "f96c8c96-2bd4-4c3e-bdfc-8fc910f6b029",
+      "type": "process",
+      "input": {
+        "type": "object",
+        "properties": {
+          "in_ruta_log": {
+            "type": "string",
+            "x-default-expression": "System.IO.Path.GetFullPath(\"..\\Logs\")"
+          },
+          "in_ruta_entrada": {
+            "type": "string",
+            "x-default-expression": "System.IO.Path.GetFullPath(\"..\\Pruebas\")"
+          },
+          "in_password": {
+            "type": "string",
+            "x-default-expression": "\"Admin123*\"",
+            "default": "Admin123*"
+          },
+          "in_db": {
+            "type": "string",
+            "x-default-expression": "\"quetzalmart\"",
+            "default": "quetzalmart"
+          },
+          "in_url": {
+            "type": "string",
+            "x-default-expression": "\"http://3.140.234.169:8069\"",
+            "default": "http://3.140.234.169:8069"
+          },
+          "in_usuario": {
+            "type": "string",
+            "x-default-expression": "\"admin@quetzalmart.gt\"",
+            "default": "admin@quetzalmart.gt"
+          }
+        },
+        "required": []
+      }
+    }
+  ]
+}
