@@ -901,11 +901,6 @@ Distribución utilizada:
 
 > En la base utilizada, el departamento de Administración aparece con el nombre **Administration**. El archivo de importación usa ese nombre para asociar a los empleados con el departamento existente.
 
-![](./imagenes/rrhh/captura_01_departamentos.png)
-_Captura 1: lista de los cinco departamentos configurados._
-
-![](./imagenes/rrhh/captura_02_puestos.png)
-_Captura 2: lista de los seis puestos de trabajo._
 
 #### 11.3.3 Almacenamiento del gestor documental
 
@@ -916,9 +911,6 @@ _Captura 2: lista de los seis puestos de trabajo._
 5. Asociarlo a la empresa **QuetzalMart** y guardar.
 
 Este almacenamiento conserva los archivos dentro de la base de datos utilizada por el sistema.
-
-![](./imagenes/rrhh/captura_03_almacenamiento.png)
-_Captura 3: configuración del almacenamiento, mostrando su nombre, tipo y empresa._
 
 #### 11.3.4 Permisos y estructura de carpetas
 
@@ -939,12 +931,6 @@ Notas:
 - En esta interfaz, el campo que identifica la carpeta padre puede aparecer como **Categoría padre**. Se usa para establecer la jerarquía de carpetas; la categoría de clasificación del archivo se asigna por separado.
 - Durante la configuración inicial se presentó una restricción para crear carpetas. Se resolvió asignando el grupo documental con permisos de creación y escritura a la carpeta raíz.
 
-![](./imagenes/rrhh/captura_04_grupo_permisos.png)
-_Captura 4: grupo documental y permisos._
-
-![](./imagenes/rrhh/captura_05_carpetas.png)
-_Captura 5: carpeta raíz con sus tres subcarpetas._
-
 #### 11.3.5 Categorías y etiquetas
 
 Desde **Documentos → Configuración → Categorías** se crearon las tres categorías. Después, desde **Configuración → Etiquetas**, se crearon las etiquetas y se asociaron a su categoría.
@@ -955,9 +941,6 @@ Desde **Documentos → Configuración → Categorías** se crearon las tres cate
 | Contratos de outsourcing | Contratos de outsourcing | Servicio externo | 5 |
 | Contratos de empleados | Contratos de empleados | RRHH | 5 |
 | **Total** | | | **15** |
-
-![](./imagenes/rrhh/captura_06_categorias_etiquetas.png)
-_Captura 6: categorías y etiquetas configuradas._
 
 ---
 
@@ -987,12 +970,6 @@ Procedimiento:
 
 La carga contiene **35 empleados**. Si el listado incluye también al empleado Administrator creado previamente, puede mostrar 36 registros; ese registro adicional no forma parte de los 35 importados.
 
-![](./imagenes/rrhh/captura_07_importacion_columnas.png)
-_Captura 7: archivo y correspondencia de columnas en la pantalla de importación._
-
-![](./imagenes/rrhh/captura_08_resultado_importacion.png)
-_Captura 8: resultado de la importación y listado con el conteo de empleados._
-
 #### 11.4.2 Generación de las cinco facturas de proveedores
 
 Se utilizaron las compras existentes **P00100, P00099, P00098, P00097 y P00096** para obtener las cinco facturas destinadas al gestor documental.
@@ -1013,13 +990,11 @@ Los PDF se identificaron con nombres como `Factura_proveedor_P00100.pdf` y se ut
 | Compra | Archivo PDF | Número de factura | Fecha | Total |
 | :--- | :--- | :--- | :--- | :--- |
 | P00100 | `Factura_proveedor_P00100.pdf` | FACTU/2026/10/0001 | 08/10/2026 | Q165.20 |
-| P00099 | `Factura_proveedor_P00099.pdf` | *(completar)* | *(completar)* | *(completar)* |
-| P00098 | `Factura_proveedor_P00098.pdf` | *(completar)* | *(completar)* | *(completar)* |
-| P00097 | `Factura_proveedor_P00097.pdf` | *(completar)* | *(completar)* | *(completar)* |
-| P00096 | `Factura_proveedor_P00096.pdf` | *(completar)* | *(completar)* | *(completar)* |
+| P00099 | `Factura_proveedor_P00099.pdf` | *P00099* | *08/10/2026* | *Q. 622.00* |
+| P00098 | `Factura_proveedor_P00098.pdf` | *P00098* | *08/10/2026* | *Q. 372.50* |
+| P00097 | `Factura_proveedor_P00097.pdf` | *P00097* | *08/10/2026* | *Q. 189.25* |
+| P00096 | `Factura_proveedor_P00096.pdf` | *P00096* | *08/10/2026* | *Q. 2281.90* |
 
-![](./imagenes/rrhh/captura_09_factura_proveedor.png)
-_Captura 9: factura de proveedor confirmada y opción de impresión._
 
 #### 11.4.3 Preparación de los contratos
 
@@ -1043,15 +1018,6 @@ Los documentos se identificaron como ejemplos académicos con datos ficticios y 
 9. Revisar la lista de archivos cargados en cada carpeta.
 
 > Guardar la carpeta es necesario cuando las filas agregadas todavía están pendientes de confirmación. Antes de guardar, la tabla puede mostrar archivos que aún no se reflejan en el contador del registro.
-
-![](./imagenes/rrhh/captura_10_facturas_clasificadas.png)
-_Captura 10: cinco facturas con carpeta, categoría y etiqueta._
-
-![](./imagenes/rrhh/captura_11_contratos_outsourcing.png)
-_Captura 11: cinco contratos de outsourcing clasificados._
-
-![](./imagenes/rrhh/captura_12_contratos_empleados.png)
-_Captura 12: cinco contratos de empleados clasificados._
 
 ---
 
