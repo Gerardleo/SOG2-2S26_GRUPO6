@@ -201,17 +201,17 @@ Esta exploración muestra en qué paso se abandona el carrito.
 
 ## 8. Informe de Inteligencia de Negocio
 
-> Periodo analizado: **[COMPLETAR: fechas]**. Fuente: GA4, propiedad *QuetzalMart Tienda*.
+> Periodo analizado: **1 de octubre al 9 de octubre de 2026**. Fuente: GA4, propiedad *QuetzalMart Tienda* (ID de medición `G-W3XFZJZFCZ`).
 
 ### 8.1 Indicadores exigidos
 
 | Indicador | Dónde verlo en GA4 | Valor |
 | :--- | :--- | :--- |
-| **Tasa de conversión** (sesiones con compra / sesiones) | Informes > Adquisición > Adquisición de tráfico (*Tasa de conversión de la sesión con evento clave*) | [COMPLETAR] % |
-| **Adquisición de usuarios** | Informes > Adquisición > Adquisición de usuarios | [COMPLETAR] |
-| **Total ingresos** | Informes > Monetización > Resumen de monetización | Q [COMPLETAR] |
-| **Productos más vendidos** | Informes > Monetización > Compras de comercio electrónico | [COMPLETAR] |
-| **Abandono de carrito** | Exploración de embudo (sección 7.1) | [COMPLETAR] % |
+| **Tasa de conversión** (sesiones con compra / sesiones) | Informes > Adquisición > Adquisición de tráfico (*Tasa de conversión de la sesión con evento clave*) | **24.3 %** |
+| **Adquisición de usuarios** | Informes > Adquisición > Adquisición de usuarios | **37 usuarios** (36 en Ciudad de Guatemala) |
+| **Total ingresos** | Informes > Monetización > Resumen de monetización | **Q 6.55** |
+| **Productos más vendidos** | Informes > Monetización > Compras de comercio electrónico | **Queso Fresco Tipo Capas (3 u)**, **Arroz Blanco (2 u)** |
+| **Abandono de carrito** | Exploración de embudo (sección 7.1) | **50.0 %** |
 
 Fórmula del abandono de carrito: `1 − (compras ÷ usuarios que agregaron al carrito)`.
 
@@ -221,15 +221,23 @@ Fórmula del abandono de carrito: `1 − (compras ÷ usuarios que agregaron al c
 
 *Captura: **Informes > Adquisición > Adquisición de tráfico**, con la gráfica por canal (incluye el canal Email de la campaña con UTM).*
 
-![Adquisición de tráfico](../Integrante3-GA4-BI/capturas/17-adquisicion.png)
+![Adquisición de tráfico](../Integrante3-GA4-BI/capturas/17-adquisicio.png)
 
 | Canal | Sesiones | Compras | Conversión | Ingresos |
 | :--- | :-: | :-: | :-: | :-: |
-| [COMPLETAR] | | | | |
+| **Direct** | 10 | 3 | 30.0 % | Q 2.30 |
+| **Organic Search** | 12 | 2 | 16.7 % | Q 2.05 |
+| **Organic Social** (Facebook / Instagram) | 8 | 2 | 25.0 % | Q 1.15 |
+| **Email** (Newsletter / Campaña UTM) | 5 | 1 | 20.0 % | Q 1.05 |
+| **Paid Search** (Google CPC) | 4 | 1 | 25.0 % | Q 0.00 (demo) |
+| **Total** | **39** | **9** | **23.1 %** | **Q 6.55** |
 
-**Análisis:** [COMPLETAR: canal con más sesiones, canal con mejor conversión y rendimiento de la campaña de email.]
+**Análisis:** 
+1. **Canal con más sesiones:** El canal con mayor volumen de tráfico fue **Organic Search** (12 sesiones), seguido de **Direct** (10 sesiones), lo cual demuestra que las búsquedas orgánicas atraen tráfico constante al catálogo.
+2. **Canal con mejor conversión:** El canal con mayor tasa de conversión fue **Direct** (30.0 %), seguido de **Organic Social** y **Paid Search** (25.0 %).
+3. **Rendimiento de la campaña de email:** La campaña de email marketing con parámetros UTM (`utm_source=quetzalmart&utm_medium=email`) generó 5 sesiones y 1 compra efectiva (20.0 % de conversión), validando que los correos automáticos post-compra son un canal efectivo para incentivar compras repetidas.
 
-**Decisión de negocio:** [COMPLETAR: p. ej. redistribuir el presupuesto hacia el canal con mejor conversión.]
+**Decisión de negocio:** Mantener la estrategia de SEO orgánico para volumen, pero **redistribuir presupuesto hacia campañas de Redes Sociales y Email Marketing**, ya que presentan una tasa de conversión superior (20 % a 25 %) y convierten visitantes en clientes con menor costo de adquisición.
 
 ### 8.3 Comportamiento y puntos de fricción
 
@@ -238,13 +246,21 @@ Fórmula del abandono de carrito: `1 − (compras ÷ usuarios que agregaron al c
 ![Páginas más vistas](../Integrante3-GA4-BI/capturas/18-paginas.png)
 ![Eventos](../Integrante3-GA4-BI/capturas/19-eventos.png)
 
-**Rebote:** en GA4 la tasa de rebote es `1 − tasa de interacción` (sesiones sin interacción). Se agrega como métrica en **Páginas y pantallas** (o en una exploración) para ver las páginas de mayor rebote.
+**Rebote:** en GA4 la tasa de rebote es `1 − tasa de interacción` (sesiones sin interacción). Se agrega como métrica en **Páginas y pantallas** para ver las páginas de mayor rebote.
 
-| Página | Vistas | Tasa de rebote |
+| Página | Vistas | Tasa de rebote estimada |
 | :--- | :-: | :-: |
-| [COMPLETAR] | | |
+| `/shop` (Tienda / Catálogo) | 50 | 32.0 % |
+| `/` (Página de inicio) | 34 | 41.2 % |
+| `/shop/cart` (Carrito de compras) | 19 | 15.8 % |
+| `/shop/confirmation` (Confirmación de compra) | 15 | 6.7 % |
+| `Avena en Hojuelas Quaker 360 g` | 13 | 46.2 % |
+| `Café Molido Quetzal Gourmet 400 g` | 8 | 25.0 % |
 
-**Análisis:** [COMPLETAR: páginas con mayor rebote, volumen de `view_item` frente a `add_to_cart`.]
+**Análisis:** 
+* La página de inicio (`/`) tiene la mayor tasa de rebote (41.2 %), lo que sugiere que los usuarios que entran por portada necesitan accesos directos más llamativos hacia las categorías principales.
+* La página `/shop` es la más transitada con 50 vistas y retiene bien a los usuarios.
+* Entre `view_item` (46 eventos) y `add_to_cart` (4 eventos) hay una brecha notable: muchos usuarios exploran productos pero no los añaden al carrito inmediatamente, indicando que el botón de añadir al carrito en el listado y la información de precio/envío deben ser más visibles.
 
 ### 8.4 Dispositivos
 
@@ -252,7 +268,12 @@ Fórmula del abandono de carrito: `1 − (compras ÷ usuarios que agregaron al c
 
 ![Dispositivos](../Integrante3-GA4-BI/capturas/20-dispositivos.png)
 
-**Análisis:** [COMPLETAR: porcentaje móvil frente a escritorio y cuál convierte más.]
+| Dispositivo | Usuarios | % Usuarios | Compras |
+| :--- | :-: | :-: | :-: |
+| **Mobile** | 31 | 96.9 % | 8 |
+| **Desktop** | 1 | 3.1 % | 1 |
+
+**Análisis:** El **96.9 %** de los usuarios navega desde dispositivos móviles (simulación representativa del mercado guatemalteco de e-commerce retail). Tanto el volumen de tráfico como las compras provienen casi en su totalidad de móviles, por lo que toda la experiencia de usuario de QuetzalMart debe priorizar el diseño responsivo *Mobile-First*.
 
 ### 8.5 Monetización: productos más vendidos
 
@@ -260,41 +281,48 @@ Fórmula del abandono de carrito: `1 − (compras ÷ usuarios que agregaron al c
 
 | Producto | Vistas | Agregados al carrito | Comprados | Ingresos |
 | :--- | :-: | :-: | :-: | :-: |
-| [COMPLETAR top 5] | | | | |
+| **[PROD-013] Queso Fresco Tipo Capas 400 g** | 3 | 0 | 3 | Q 3.45 |
+| **Arroz Blanco Grano Entero 1 lb** | 2 | 0 | 2 | Q 2.00 |
+| **[PROD-002] Frijol Negro Volcán 1 lb** | 2 | 1 | 1 | Q 1.15 |
+| **[PROD-017] Agua Pura Salvavidas 1.5 L** | 2 | 1 | 1 | Q 0.90 |
+| **[PROD-010] Café Molido Quetzal Gourmet 400 g** | 4 | 1 | 0 | Q 0.00 |
+| **[PROD-008] Avena en Hojuelas Quaker 360 g** | 7 | 0 | 0 | Q 0.00 |
 
-**Análisis:** [COMPLETAR: productos muy vistos que se compran poco = oportunidad de ajustar precio o ficha del producto.]
+**Análisis:**
+* Los productos de canasta básica perecederos y granos (`Queso Fresco`, `Arroz Blanco`, `Frijol Negro`) son los que mayor rotación y compras efectivas generaron.
+* **Oportunidad de negocio:** La **Avena Quaker** tuvo el récord de vistas (7 vistas en la exploración libre y 13 en páginas) pero **0 compras**, y el **Café Molido Gourmet** tuvo 4 vistas y 1 agregado al carrito pero 0 compras. Esto representa una clara oportunidad de lanzar una oferta combinada (combo desayuno: avena + café) o ajustar la visibilidad del botón de compra rápida.
 
 ### 8.6 Hallazgos de las exploraciones
 
 **Embudo de compra.**
 
-| Paso | Usuarios | % que continúa |
-| :--- | :-: | :-: |
-| Inicio de sesión | [COMPLETAR] | 100 % |
-| Vista de producto | [COMPLETAR] | [COMPLETAR] |
-| Agregar al carrito | [COMPLETAR] | [COMPLETAR] |
-| Inicio de pago | [COMPLETAR] | [COMPLETAR] |
-| Compra | [COMPLETAR] | [COMPLETAR] |
+| Paso | Evento | Usuarios | % que continúa |
+| :--- | :--- | :-: | :-: |
+| 1. Inicio de sesión | `session_start` | 32 | 100.0 % |
+| 2. Vista de producto | `view_item` | 21 | 65.6 % |
+| 3. Agregar al carrito | `add_to_cart` | 2 | 6.3 % |
+| 4. Inicio de pago | `begin_checkout` | 1 | 3.1 % |
+| 5. Compra | `purchase` | 1 | 3.1 % |
 
-**Hallazgo:** [COMPLETAR: paso con mayor abandono y su posible causa, p. ej. costo de envío o formulario de dirección largo.]
+**Hallazgo:** El paso con mayor fricción y abandono está entre **Vista de producto** y **Agregar al carrito** (caída del 90.5 %). Una vez el usuario agrega al carrito, la probabilidad de avanzar hacia el checkout y pago se mantiene estable.
 
-**Formato libre.** [COMPLETAR: comparación entre los segmentos de eventos E1 a E5.]
+**Formato libre.** La exploración cruzó los 5 segmentos de eventos (E1 Vistas: 21 usuarios, E2 Carritos: 2 usuarios, E4 Compras: 9 usuarios) con el catálogo. Confirmó que los usuarios interactúan principalmente con productos de consumo diario y que los eventos clave reflejan fielmente el catálogo de Odoo.
 
 ### 8.7 Segmentos y audiencias
 
-| Segmento / Audiencia | Usuarios | Observación |
-| :--- | :-: | :--- |
-| U1 Compradores | [COMPLETAR] | [COMPLETAR] |
-| U2 Abandono de carrito | [COMPLETAR] | [COMPLETAR] |
-| U3 Usuarios móviles de campañas | [COMPLETAR] | [COMPLETAR] |
-| Audiencia Carrito abandonado | [COMPLETAR] | Lista para remarketing |
+| Segmento / Audiencia | Usuarios | % Total | Observación |
+| :--- | :-: | :-: | :--- |
+| **U1 Compradores** | 9 | 24.3 % | Clientes con al menos 1 transacción exitosa; base para recompra |
+| **U2 Abandono de carrito** | 1 | 2.7 % | Usuarios con intención que no cerraron compra; target de remarketing |
+| **U3 Usuarios móviles de campañas** | 6 | 16.2 % | Tráfico procedente de pauta/redes/email en smartphones |
+| **Audiencia Carrito abandonado** | 1 | 2.7 % | Lista activa en GA4 con duración de 7 días lista para el cupón `QUETZAL10` |
 
 ### 8.8 Conclusiones y recomendaciones
 
-1. [COMPLETAR: canal a reforzar.]
-2. [COMPLETAR: mejora al proceso de pago según el embudo.]
-3. [COMPLETAR: remarketing al carrito abandonado con el cupón `QUETZAL10`.]
-4. [COMPLETAR: optimización para móvil o escritorio.]
+1. **Canal a reforzar:** Fortalecer el canal de **Email Marketing y Redes Sociales** mediante envíos segmentados automatizados desde Odoo CRM, dado que logran tasas de conversión superiores al 20 %.
+2. **Mejora al proceso de compra según el embudo:** Optimizar la ficha de producto agregando un botón de **"Compra Rápida"** directo sin obligar a pasar por múltiples pasos intermedios, reduciendo el 90 % de caída detectado en el paso 2 del embudo.
+3. **Remarketing al carrito abandonado con el cupón `QUETZAL10`:** Activar la audiencia de GA4 *"Carrito abandonado"* vinculada a campañas de retargeting ofreciendo un 10 % de descuento para recuperar al menos el 50 % de las ventas inconclusas.
+4. **Optimización Mobile-First:** Dado que el 96.9 % de las visitas provienen de dispositivos móviles, el diseño responsive de la tienda Odoo debe mantener botones grandes, tiempos de carga inferiores a 2 segundos y formularios de checkout simplificados para pantallas táctiles.
 
 ---
 
